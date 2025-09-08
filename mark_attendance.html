@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Mark Attendance</h2>
+<div class="row mt-4">
+    <div class="col-md-6">
+        <form method="POST">
+            <div class="mb-3">
+                <label for="roll_number" class="form-label">Enter Roll Number</label>
+                <input type="text" class="form-control" id="roll_number" name="roll_number" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Mark Present</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

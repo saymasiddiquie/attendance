@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to Rural School Attendance System</h1>
+    <p class="lead">A simple and efficient way to manage student attendance in rural schools.</p>
+    <hr class="my-4">
+    <p>Get started by adding students or marking attendance.</p>
+    <div class="mt-4">
+        <a class="btn btn-primary btn-lg me-2" href="/add_student" role="button">Add Student</a>
+        <a class="btn btn-success btn-lg" href="/mark_attendance" role="button">Mark Attendance</a>
+    </div>
+</div>
+{% endblock %}
